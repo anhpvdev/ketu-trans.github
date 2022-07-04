@@ -1,0 +1,247 @@
+body{
+    width: 100%;
+    background: url(BaG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #ffffff, 0 0 0.7em #00bcff;
+}
+
+.mid{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+.main{
+    margin: auto;
+    width: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.main > *{
+    width: 600px;
+    height: 100px;
+    border-top: 5px solid rgb(251, 255, 0);
+    border-bottom: 5px solid rgb(251, 255, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 30px auto;
+    transform: skew(-50deg);
+    
+}
+
+.main > *:hover{
+    cursor: pointer;
+    text-shadow: 0 0 0.5em rgb(244, 248, 0), 0 0 0.2em #ffffff, 0 0 0.5em #eeff00;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.main > div > h2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    margin: 0px;
+    transform: skew(50deg);
+}
+
+#community{
+    display: flex;
+    width: 800px;
+    margin: auto;
+    /* position: absolute;
+    top: 0;
+    left: 100px; */
+    display: none;  
+}
+
+.community{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgb(251, 255, 0);
+    /* position: absolute;
+    top: 0; */
+    margin: auto;
+}
+.community >*{
+    display: flex;
+    flex: 1;
+}
+.community > *>i {
+    font-size: 100px;
+    margin: 20px 80px;
+    color: white;
+    flex: 1;
+
+}
+
+.community >* >div{
+    height: 50px;
+    margin: auto 20px;
+    flex: 3;
+}
+.community >* >div> a{
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 1em rgb(251, 255, 0), 0 0 0.2em #ffffff, 0 0 0.2em #e9ec0e;
+}
+
+#team{
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    /* position: absolute;
+    top: 0; */
+    display: none;
+}
+
+.team{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgb(251, 255, 0);
+    /* position: absolute;
+    top: 0; */
+    margin: auto;
+}
+
+.team-header{
+    display: flex;
+    justify-content: center;
+}
+
+.team > .team-header> .logo{
+    width: 150px;
+    margin: 20px 40px;
+}
+
+.team >.team-header>.logo>img{
+    width: 100%;
+    padding: 20px;
+}
+.team >.team-header>h1{
+    font-size: 80px;
+    color: #FAFF00;
+    text-shadow: 0 0 0.1em rgb(244, 248, 0), 0 0 0.2em #ffffff, 0 0 1em #eeff00;
+}
+
+.team-mid{
+    margin-left: 20px;
+}
+
+.team-mid > h2 {
+    color: white;
+    font-size: 40px;
+    margin: 10px 30px;
+}
+.team-mid > h2 > a{
+    color: white;
+    text-shadow: 0 0 1em rgb(252, 0, 34), 0 0 0.2em #ffffff, 0 0 0.2em #f80036;
+}
+.team-mid > div{
+    display: flex;
+    margin: 40px 0px;
+}
+
+.team-mid > div >i{
+    font-size: 80px;
+    margin: 10px 30px;
+    color: white;
+}
+.team-mid > div > a{
+   font-size: 40px;
+   margin-top: auto;
+   margin-bottom: auto;
+   color: white;
+   text-shadow: 0 0 1em rgb(252, 0, 34), 0 0 0.2em #ffffff, 0 0 0.5em #f80036;
+}
+#comic{
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: -150px;
+    display: none;
+}
+.comic{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgb(251, 255, 0);
+    /* position: absolute;
+    top: 0; */
+    margin: auto;
+    display: flex;
+}
+.comic>.comic1,
+.comic>.comic2{
+    display: flex;
+    margin: 0px 20px;
+}
+.comic2{
+    float: left;
+}
+.comic > .comic1 > .image,
+.comic > .comic2 > .image{
+    width: 300px;
+    margin: 20px;
+}
+
+.comic > .comic1 > .image > img,
+.comic > .comic2 > .image > img{
+    width: 100%;
+}
+
+.info{
+    color: white;
+}
+
+.info-list >*{
+    display: flex;
+    flex: 1;
+}
+
+.info-list >*>*{
+    font-size: 30px;
+}
+.info-list >*>h3{
+    margin: 10px 0px;
+    width: 40%;
+}
+.info >h1{
+    text-shadow: 0 0 1.5em rgb(244, 248, 0), 0 0 0.2em #ffffff, 0 0 0.5em #eeff00;
+}
+.info-list >* >a{
+    color: white;
+    text-shadow: 0 0 1em rgb(252, 0, 34), 0 0 0.2em #ffffff, 0 0 0.5em #f80036;
+    height: 30px;
+    margin: auto;
+    flex: 2;
+}
+
+#exit2, #exit3, #exit1{
+    color: rgb(251, 255, 0);
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#exit1{
+    right: 210px;
+    
+}

@@ -1,0 +1,298 @@
+@media(max-width:1300px){
+    .mid{
+        width: 100%;
+    }
+    #comic{
+        width: 60%;
+        top: 0;
+        left: 0;
+        position: inherit;
+    }
+    .comic{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .comic>.comic1,
+    .comic>.comic2{
+        justify-content: center;
+    }
+    .comic2{
+        float: none;
+    }
+    .info-list >*>*{
+        font-size: 28px;
+    }
+    #exit1{
+        right: 330px;
+    }
+    #exit2{
+        right: 120px;
+    }
+}
+/* @media(max-width:1200px){
+    #exit2{
+       right: 120px;
+    }
+} */
+@media(max-width:1100px){
+    .team-mid > div {
+        margin: 0px;
+    }
+    #exit1{
+        right: 250px;
+    }
+    #exit2{
+        right: 40px;
+    }
+    
+}
+@media(max-width:1000px){
+    #team{
+        width: 800px;
+    }
+    .team-mid > h2{
+        font-size: 25px;
+    }
+    .team-mid > div {
+        margin: 0px;
+    }
+    .team-mid > div >i {
+        margin: 10px 20px;
+    }
+    .team-mid > div > a{
+        font-size: 25px;
+    }
+    #exit1{
+        right: 160px;
+    }
+    #exit2{
+        right: 50px;
+    }
+}
+@media(max-width:800px){
+    .header{
+        font-size: 90px;
+    }
+    .main{
+        width: 400px;
+    }
+    .main>*{
+        width: 400px;
+        transform: skew(-30deg);
+    }
+    .main > div > h2{
+        font-size: 40px;
+        transform: skew(30deg);
+    }
+    #community{
+        width: 600px;
+    }
+    #team{
+        width: 600px;
+    }
+    .team > .team-header> .logo{
+        width: 100px;
+        margin: 0px 40px;
+        padding: 20px 0px;
+        margin: 0px 40px 0px 0px;
+    }
+    .team-mid > div{
+        margin: 0px;
+    }
+    .team >.team-header>h1{
+        font-size: 60px;
+        margin: auto 0px;
+    }
+    .team-mid > h2{
+        font-size: 30px;
+    }
+    .team-mid > div > a{
+        font-size: 30px;
+    }
+    .comic>.comic1,
+    .comic>.comic2{
+        display: block;
+    }
+    .comic > .comic1 > .image,
+    .comic > .comic2 > .image{
+        margin: 50px auto;
+    }
+    .info{
+        text-align: center;
+    }
+    #exit1{
+        right: 90px;
+    }
+    #exit2{
+        right: 90px;
+    }
+}
+@media(max-width:700px){
+    #exit1{
+        right: 40px;
+    }
+    #exit2{
+        right: 40px;
+    }
+}
+@media(max-width:650px){
+    .main{
+        width: 300px;
+    }
+    .main>*{
+        width: 300px;
+    }
+    .main > div > h2{
+        font-size: 30px;
+    }
+    #community{
+        width: 500px;
+    }
+    .community{
+        width: 100%;
+    }
+    .community > *>i{
+        margin: 20px 20px;
+    }
+    #team{
+        width: 400px;
+    }
+    .team >.team-header>h1{
+        font-size: 40px;
+    }
+    .team-mid > h2{
+        font-size: 20px;
+    }
+    .team-mid > div >i {
+        font-size: 50px;
+    }
+    .team-mid > div > a{
+        font-size: 20px;
+    }
+    #exit1{
+        right: 25px;
+    }
+}
+@media(max-width:500px){
+
+    .header{
+        font-size: 70px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main > div > h2{
+        font-size: 30px;
+    }
+    #community{
+        width: 400px;
+    }
+    .community > *>i{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    .community >* >div> a{
+        font-size: 30px;
+    }
+    .comic > .comic1 > .image,
+    .comic > .comic2 > .image{
+        margin: 50px auto;
+        width: 100%;
+    }
+    .info-list >*>*{
+        font-size: 20px;
+    }
+    #exit2{
+        right: 30px;
+    }
+}
+
+@media(max-width:400px){
+    #community{
+        width: 300px;
+    }
+    .community > *>i{
+    margin-left: 20px;
+    }
+    .community >* >div{
+        margin: auto 0px;
+    }
+    #team{
+        width: 300px;
+    }
+    .team-mid > h2{
+        font-size: 15px;
+    }
+    .team-mid > div >i {
+        font-size: 40px;
+    }
+    .team-mid > div > a{
+        font-size: 15px;
+    }
+    #exit1{
+        font-size: 25px;
+        right: 20px;
+    }
+    #exir2{
+
+    }
+}
+@media(max-width:300px){
+    .header{
+        font-size: 50px;
+    }
+    .main > div > h2{
+        font-size: 30px;
+    }
+    #community{
+        width: 250px;
+    }
+    .community > *>i {
+        font-size: 35px;
+        margin: 10px 20px;
+    }
+    .community >* >div{
+        height: 20px;
+    }
+    .community >* >div> a {
+        font-size: 20px;
+    }
+    #team{
+        width: 200px;
+    }
+    .team > .team-header> .logo{
+        width: 50px;
+        margin: 0px 15px 0px 0px;
+    }
+    .team >.team-header>.logo>img {
+        padding: 0px;
+    }
+    .team >.team-header>h1{
+        font-size: 20px;
+    }
+    .team-mid > h2{
+        font-size: 10px;
+        margin: 10px 10px;
+    }
+    .team-mid > div >i {
+        font-size: 30px;
+        margin: 5px 10px 5px 0px;
+    }
+    .team-mid > div > a{
+        font-size: 10px;
+    }
+    .info-list >*>*{
+        font-size: 15px;
+    }
+    .info >h1{
+        font-size: 1.5em;
+    }
+    #exit1{
+        right: 10px;
+    }
+    #exit2{
+        font-size: 25px;
+        right: 35px;
+    }
+}

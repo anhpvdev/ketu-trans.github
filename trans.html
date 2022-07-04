@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mộng Tiên Giới</title>
+    <link href="fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="trans.css">
+    <link rel="stylesheet" href="res.css">
+</head>
+<body>
+    <div class="header">Mộng Tiên Giới</div>
+    <div class="mid">
+        <div class="main" id="main">
+            <div onclick="showcommunity()">
+                <h2>Cộng Đồng</h2>
+            </div>
+            <div onclick="showteam()">
+                <h2>Trans-Team</h2>
+            </div>
+            <div onclick="showcomic()">
+                <h2>Truyện Đang Dịch</h2>
+            </div>
+        </div>
+        <div id="community">
+            <div class="community">
+                <div class="community-face">
+                    <i class="fa-brands fa-facebook"></i>
+                    <div><a href="https://www.facebook.com/groups/mongtiengioi/">mongtiengioi</a></div>
+                </div>
+                <div class="community-mess">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <div><a href="https://www.messenger.com/j/AbZWaM2xyvTpDoED/">mongtiengioi</a></div>
+                </div>
+                <div class="community-ytb">
+                    <i class="fa-brands fa-youtube"></i>
+                    <div><a href="https://www.youtube.com/channel/UCI7_VE5CXD-XZfKiUlp-Ksw">mongtiengioi</a></div>
+                </div>
+                <i class="fa-solid fa-xmark" id="exit1" onclick="hide()"></i>
+            </div>
+
+        </div>
+        <div id="team">
+            <div class="team">
+               <div class="team-header">
+                    <div class="logo"><img src="canhcut.png" alt="logo"></div>
+                    <h1>Trans-Team</h1>
+               </div>
+               <div class="team-mid">
+                    <h2>Leader: <a href="https://www.facebook.com/profile.php?id=100070052845503">Lã Thụ</a></h2>
+                    <h2>Liên hệ: transteam.mtg@gmail.com</h2>
+                    <div>
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        <a href="https://m.me/j/AbZGXcDfda1OO4A8/">Nếu Bạn muốn giao lưu với nhóm dịch thì ấn vào</a>
+                    </div>
+
+               </div>
+            </div>
+            <i class="fa-solid fa-xmark" id="exit2" onclick="hide()"></i>
+        </div>
+        <div id="comic">
+            <div class="comic">
+                <div class="comic1">
+                    <div class="image"><img src="comic1.png" alt=""></div>
+                    <div class="info">
+                        <h1>MTG - TransTeam</h1>
+                        <div class="info-list">
+                            <div>
+                                <h3 class="name">Edit:</h3>
+                                <a href="https://www.facebook.com/lamnguyetdamdai">Xà Phòng</a>
+                            </div>
+                            <div>
+                                <h3 class="name">PR: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100081851716198">Bắc Hà</a>
+                            </div>
+                            <div>
+                                <h3 class="name">QC: </h3>
+                                <a href="https://www.facebook.com/lamnguyetdamdai">Xà Phòng</a>
+                            </div>
+                            <div>
+                                <h3 class="name">Trans: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100070052845503">Lã Thụ</a>
+                            </div>
+                            <div>
+                                <h3 class="name">Type: </h3>
+                                <a href="https://www.facebook.com/lamnguyetdamdai">Xà Phòng</a>
+                            </div>
+                            <div>
+                                <h3 class="name">PR: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100081851716198">Bắc Hà</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comic2">
+                    <div class="image"><img src="comic2.png" alt=""></div>
+                    <div class="info">
+                        <h1>MTG - TransTeam</h1>                        
+                        <div class="info-list">
+                            <div>
+                                <h3 class="name">Edit:</h3>
+                                <a href="https://www.facebook.com/profile.php?id=100048859516320">Tina</a>
+                            </div>
+                            <div>
+                                <h3 class="name">PR: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100048859516320">Tina</a>
+                            </div>
+                            <div>
+                                <h3 class="name">QC: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100048859516320">Tina</a>
+                            </div>
+                            <div>
+                                <h3 class="name">Trans: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100048859516320">Tina</a>
+                            </div>
+                            <div>
+                                <h3 class="name">Type: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100048859516320">Tina</a>
+                            </div>
+                            <div>
+                                <h3 class="name">PR: </h3>
+                                <a href="https://www.facebook.com/profile.php?id=100048859516320">Tina</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-xmark" id="exit3" onclick="hide()"></i>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function showcommunity(){
+            document.getElementById("community").style.display = "block";
+            document.getElementById("main").style.zIndex="0";
+            document.getElementById("exit1").style.display = "block";
+            document.getElementById("main").style.display = "none";
+        }
+        function showteam(){
+            document.getElementById("team").style.display = "block";
+            document.getElementById("main").style.zIndex="0";
+            document.getElementById("exit2").style.display = "block";
+            document.getElementById("main").style.display = "none";
+        }
+        function showcomic(){
+            document.getElementById("comic").style.display = "block";
+            document.getElementById("main").style.zIndex="0";
+            document.getElementById("exit3").style.display = "block";
+            document.getElementById("main").style.display = "none";
+        }
+
+        function hide(){
+            document.getElementById("community").style.display = "none";
+            document.getElementById("team").style.display = "none";
+            document.getElementById("comic").style.display = "none";
+            document.getElementById("main").style.display = "block";
+        }
+
+    </script>
+
+
+</body>
+</html>
